@@ -1,0 +1,35 @@
+<!--Code created by Mehakdeep Kaur       Student id = C0912074-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <div class="conversion-section">
+            <h2>US Dollar to Canadian Dollar</h2>
+            <div class="input-group">
+                <label for="usdInput">USD (US Dollar):</label>
+                <input type="number" id="usdInput" placeholder="Enter USD amount">
+            </div>
+            <div class="result" id="usdToCadResult"></div>
+            <button onclick="usdToCad()">Convert</button>
+        </div>
+        <div class="conversion-section">
+            <h2>Canadian Dollar to US Dollar</h2>
+            <div class="input-group">
+                <label for="cadInput">CAD (Canadian Dollar):</label>
+                <input type="number" id="cadInput" placeholder="Enter CAD amount">
+            </div>
+            <div class="result" id="cadToUsdResult"></div>
+            <button onclick="cadToUsd()">Convert</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
